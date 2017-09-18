@@ -13,6 +13,7 @@ namespace DDDBlogging.Blogging
         public Article(Guid author, string title)
         {
             Identity = Guid.NewGuid();
+            AuthorIdentity = author;
             Rename(title);
         }
 
