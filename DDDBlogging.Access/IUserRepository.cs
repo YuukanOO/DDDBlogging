@@ -7,6 +7,7 @@ namespace DDDBlogging.Access
         void Add(User user);
         void Delete(User user);
         User GetForIdentity(Guid identity);
+        User GetForName(string username);
         User[] GetAll();
     }
 }
