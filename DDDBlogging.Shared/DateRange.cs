@@ -25,6 +25,8 @@ namespace DDDBlogging.Shared
             End = end;
         }
 
+        // On pourrait ici ajouter toutes les méthodes nécessaires à la comparaison de deux fourchettes (intersection, supérieure, inférieure, ...)
+
         public override bool Equals(object obj)
         {
             var asDateRange = obj as DateRange;
