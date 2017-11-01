@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBlogging.Access", "DDDBlogging.Access\DDDBlogging.Access.csproj", "{8E731E4B-7A02-4CB6-9E6A-F519E5C2286F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDBlogging.Access", "DDDBlogging.Access\DDDBlogging.Access.csproj", "{8E731E4B-7A02-4CB6-9E6A-F519E5C2286F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBlogging.Blogging", "DDDBlogging.Blogging\DDDBlogging.Blogging.csproj", "{7DC23842-932B-443A-90A4-8E1F76E9604B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDBlogging.Blogging", "DDDBlogging.Blogging\DDDBlogging.Blogging.csproj", "{7DC23842-932B-443A-90A4-8E1F76E9604B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CF822A7-89D0-4D6B-9D47-495A781B4B23}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBlogging.Shared", "DDDBlogging.Shared\DDDBlogging.Shared.csproj", "{D22F630A-466A-4DE2-BDB2-E8BDBF855889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{7DC23842-932B-443A-90A4-8E1F76E9604B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DC23842-932B-443A-90A4-8E1F76E9604B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DC23842-932B-443A-90A4-8E1F76E9604B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22F630A-466A-4DE2-BDB2-E8BDBF855889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22F630A-466A-4DE2-BDB2-E8BDBF855889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22F630A-466A-4DE2-BDB2-E8BDBF855889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22F630A-466A-4DE2-BDB2-E8BDBF855889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

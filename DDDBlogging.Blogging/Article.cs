@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DDDBlogging.Shared;
+using System;
 
 namespace DDDBlogging.Blogging
 {
@@ -9,11 +10,14 @@ namespace DDDBlogging.Blogging
         public Guid AuthorIdentity { get; private set; }
         public string Title { get; private set; }
         public string Content { get; private set; }
+        public DateRange Featured { get; private set; }
 
         public Article(Guid author, string title)
         {
             Identity = Guid.NewGuid();
             AuthorIdentity = author;
+
+            IsNotFeatured();
             Rename(title);
         }
 
@@ -40,6 +44,16 @@ namespace DDDBlogging.Blogging
         public void NotCategorized()
         {
             CategoryIdentity = null;
+        }
+
+        public void IsFeatured(DateRange range)
+        {
+            Featured = range;
+        }
+
+        public void IsNotFeatured()
+        {
+            Featured = DateRange.Empty;
         }
     }
 }
